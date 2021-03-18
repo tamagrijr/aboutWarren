@@ -1,33 +1,35 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
+import styled from 'styled-components';
 
 export default function Home() {
 
   return (
     <div class='homePage'>
 
-      <div class='line comment'>
-        <span class='lineNumbers'>1</span>
-      &nbsp;
-      {`//Warren Tamagri - Web Developer`}
-      </div>
+      <Line class='comment'>
+        <LineNumber>1</LineNumber>
+        &nbsp;
+        {`//Warren Tamagri - Web Developer`}
+      </Line>
+      <Line>
+        <LineNumber>2</LineNumber>
+      </Line>
 
-      <span class='lineNumbers'>2</span>
-
-      <div class='line'>
-        <span class='lineNumbers'>3</span>
-      &nbsp;
-      <span class='purp'>{`export default `} </span>
+      <Line>
+        <LineNumber>3</LineNumber>
+        &nbsp;
+        <span class='purp'>{`export default `} </span>
         <span class='blue'>{`function `} </span>
         <span class='lightYellow'>{'Hello'}</span>
         <span class='yellow'>{`() {`}</span>
-      </div>
+      </Line>
 
-      <div class='line purp'>
+      <Line class='purp'>
         <span class='lineNumbers'>4</span>
       &nbsp;&nbsp;&nbsp;
       {`return (`}
-      </div>
+      </Line>
 
       <div class='line gray'>
         <span class='lineNumbers'>5</span>
@@ -59,3 +61,11 @@ export default function Home() {
     </div>
   )
 }
+
+const LineNumber = styled.span`
+  color: rgb(144, 144, 144);
+  position: relative;
+`;
+const Line = styled.div`
+  position: relative;
+`;
