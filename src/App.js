@@ -1,8 +1,15 @@
 import React from 'react';
 
+import Home from './Home';
+
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <>
+      <div class='coverPage'>
+
+      </div>
+      <Home />
+    </>
   );
 }
 
