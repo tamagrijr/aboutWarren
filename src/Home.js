@@ -60,7 +60,7 @@ export default function Home() {
           <Num>6</Num>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <Gray>{`<`}</Gray>
-          <Green>{`Greeting`}</Green>
+          <Green>{`Salutation`}</Green>
           <Gray>{`>`}</Gray>
         </Line>
 
@@ -125,7 +125,7 @@ export default function Home() {
           <Num>14</Num>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <Gray>{`</`}</Gray>
-          <Green>{`Greeting`}</Green>
+          <Green>{`Salutation`}</Green>
           <Gray>{`>`}</Gray>
         </Line>
 
