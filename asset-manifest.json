@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tamagrijr/aboutWarren/static/css/main.67743b28.chunk.css",
+    "main.js": "/tamagrijr/aboutWarren/static/js/main.71f7a726.chunk.js",
+    "main.js.map": "/tamagrijr/aboutWarren/static/js/main.71f7a726.chunk.js.map",
+    "runtime-main.js": "/tamagrijr/aboutWarren/static/js/runtime-main.9acccf35.js",
+    "runtime-main.js.map": "/tamagrijr/aboutWarren/static/js/runtime-main.9acccf35.js.map",
+    "static/js/2.a9a73699.chunk.js": "/tamagrijr/aboutWarren/static/js/2.a9a73699.chunk.js",
+    "static/js/2.a9a73699.chunk.js.map": "/tamagrijr/aboutWarren/static/js/2.a9a73699.chunk.js.map",
+    "index.html": "/tamagrijr/aboutWarren/index.html",
+    "static/css/main.67743b28.chunk.css.map": "/tamagrijr/aboutWarren/static/css/main.67743b28.chunk.css.map",
+    "static/js/2.a9a73699.chunk.js.LICENSE.txt": "/tamagrijr/aboutWarren/static/js/2.a9a73699.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9acccf35.js",
+    "static/js/2.a9a73699.chunk.js",
+    "static/css/main.67743b28.chunk.css",
+    "static/js/main.71f7a726.chunk.js"
+  ]
+}
