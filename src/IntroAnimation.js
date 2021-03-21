@@ -31,7 +31,8 @@ const Terminal = styled.div`
   position: absolute;
   height: 30vh;
   width: 30vw;
-  border: 1px solid black;
+  border: 1px solid white;
+  color: white;
   padding: 10px;
   @media (max-width: 768px) {
     width: 70vw;
