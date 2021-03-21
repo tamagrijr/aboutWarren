@@ -3,7 +3,8 @@ import ReactTypingEffect from 'react-typing-effect';
 import styled from 'styled-components';
 import { SplitPane } from "react-collapse-pane";
 
-import ProjectsPane from './ProjectsPane'
+import ProjectsPane from './ProjectsPane';
+import IntroAnimation from './IntroAnimation';
 
 export default function Home() {
   const [showProjects, setShowProjects] = useState(false);
