@@ -1,10 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import ReactTypingEffect from 'react-typing-effect';
 
-export default function IntroAnimation() {
+export default function IntroAnimation({ showTerminal }) {
   return (
-    <OpeningTerminal >
+    <OpeningTerminal showTerminal={showTerminal}>
       <Terminal>
         Welcome to: Warren_Tamagri_Site $
         {' '}
@@ -25,6 +25,17 @@ const OpeningTerminal = styled.div`
   justify-content: center;
   align-items: center;
   position:  'absolute';
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 600ms, visibility 600ms;
+  transition: opacity 600ms, visibility 600ms;
+  ${({showTerminal}) => !showTerminal && css `
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 600ms, visibility 600ms;
+  transition: opacity 600ms, visibility 600ms;
+  `}
 `;
 
 const Terminal = styled.div`
