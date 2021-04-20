@@ -77,7 +77,7 @@ export default function ProjectsPane() {
         <Line>
           <Num>13</Num>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <Link href="https://master.dbjcnb793ygs.amplifyapp.com/">{`Check it out!`}</Link>
+          <Link href="https://tamagrijr.github.io/dnsFrontend/#/splash">{`Check it out!`}</Link>
         </Line>
 
       </Container>
